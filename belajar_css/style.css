@@ -1,0 +1,59 @@
+
+ul{
+	list-style-type: none;
+	background-color: #f39c12;
+	overflow: hidden;
+	padding: 0;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	display: block;
+	color: white;
+	font-family: arial;
+	text-decoration: none;
+	padding: 10px 10px;
+}
+
+li a:hover{
+	background-color: grey;
+}
+
+body{
+/*	font-family: cambria;*/
+}
+
+/*titik(.) digunakan untuk kelas*/
+.judul{
+	font-family: cambria;
+}
+
+/*memanggil id menggunakan #*/
+#judul2{
+	
+}
+
+h1{
+	color: purple;
+	font-family: arial,verdana,sans-serif;
+	font-style: /*oblique,*/italic;
+	font-variant: small-caps;
+}
+
+p{
+	color: black;
+	text-indent: 100px;
+	line-height: 20px;
+	word-spacing: 10px;
+}
+table {
+	border-style: dotted;
+}
+
+td, th{
+	padding: 10px 10px 10px 10px;
+	font-family: arial;
+}
